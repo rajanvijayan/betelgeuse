@@ -1,11 +1,5 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
-
-_s
+Betelgeuse - WordPress Multipurpose Theme
 ===
-
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
-
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
 
 * A modern workflow with a pre-made command-line interface to turn your project into a more pleasant experience.
 * A just right amount of lean, well-commented, modern, HTML5 templates.
@@ -24,7 +18,7 @@ Installation
 
 ### Requirements
 
-`_s` requires the following dependencies:
+This theme requires the following dependencies:
 
 - [Node.js](https://nodejs.org/)
 - [Composer](https://getcomposer.org/)
@@ -44,7 +38,7 @@ Then, update the stylesheet header in `style.css`, the links in `footer.php` wit
 
 ### Setup
 
-To start using all the tools that come with `_s`  you need to install the necessary Node.js and Composer dependencies :
+To start using all the tools, you need to install the necessary Node.js and Composer dependencies :
 
 ```sh
 $ composer install
@@ -53,7 +47,7 @@ $ npm install
 
 ### Available CLI commands
 
-`_s` comes packed with CLI commands tailored for WordPress theme development :
+This theme comes packed with CLI commands tailored for WordPress theme development :
 
 - `composer lint:wpcs` : checks all PHP files against [PHP Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/).
 - `composer lint:php` : checks all PHP files for syntax errors.
@@ -65,6 +59,6 @@ $ npm install
 - `npm run lint:js` : checks all JavaScript files against [JavaScript Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/javascript/).
 - `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
+### Credits
 
-Good luck!
+- `_s` [Underscores](https://github.com/Automattic/_s) starter theme
