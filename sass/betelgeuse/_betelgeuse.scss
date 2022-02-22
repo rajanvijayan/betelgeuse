@@ -1,4 +1,16 @@
-.site-header{
-    width: $container-width;
-    margin: 0 auto;
+@media screen and (min-width: 37.5em) {
+    .site-header{
+        width: $container-destop-width;
+        margin: 0 auto;
+    }
+    .site-main{
+        width: $container-destop-width;
+        margin: 0 auto;
+    }
+}
+.main-navigation ul ul li:hover ul {
+    left: 250px;
+}
+.main-navigation ul ul{
+    background-color: $menu-background;
 }

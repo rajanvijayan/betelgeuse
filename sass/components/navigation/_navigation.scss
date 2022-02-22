@@ -31,7 +31,7 @@
 			}
 
 			a {
-				width: 200px;
+				min-width: 250px;
 			}
 
 			:hover > a,
@@ -60,6 +60,8 @@
 	a {
 		display: block;
 		text-decoration: none;
+		padding: 10px;
+		color: $menu-color;
 	}
 
 	.current_page_item > a,
@@ -81,9 +83,15 @@
 		display: none;
 	}
 
-	.main-navigation ul {
+	.main-navigation .menu > ul {
 		display: flex;
+		justify-content: space-between;
 	}
+	.main-navigation .menu > ul ul {
+		display: unset;
+		justify-content: space-between;
+	}
+	
 }
 
 .comment-navigation,

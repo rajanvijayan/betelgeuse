@@ -1,3 +1,13 @@
-.site-branding{
+.site-branding {
     text-align: center;
+    padding: 20px;
+    .site-title{
+        a{
+            color: $logo-text-color;
+            text-decoration: none;
+        }
+    }
+    p{
+        color: $logo-text-color;
+    }
 }
