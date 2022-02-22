@@ -49,6 +49,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 --------------------------------------------------------------*/
 /* Betelgeuse Elements */
+/* Betelgeuse Elements */
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
@@ -623,6 +624,16 @@ textarea {
 --------------------------------------------- */
 .site-branding {
 	text-align: center;
+	padding: 20px;
+}
+
+.site-branding .site-title a {
+	color: #404040;
+	text-decoration: none;
+}
+
+.site-branding p {
+	color: #404040;
 }
 
 /*--------------------------------------------------------------
@@ -666,7 +677,7 @@ textarea {
 }
 
 .main-navigation ul ul a {
-	width: 200px;
+	min-width: 250px;
 }
 
 .main-navigation ul li:hover > ul,
@@ -681,6 +692,8 @@ textarea {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	padding: 10px;
+	color: #404040;
 }
 
 /* Small menu. */
@@ -693,8 +706,13 @@ textarea {
 	.menu-toggle {
 		display: none;
 	}
-	.main-navigation ul {
+	.main-navigation .menu > ul {
 		display: flex;
+		justify-content: space-between;
+	}
+	.main-navigation .menu > ul ul {
+		display: unset;
+		justify-content: space-between;
 	}
 }
 
@@ -944,9 +962,23 @@ textarea {
 
 /* Betelgeuse Style
 --------------------------------------------- */
-.site-header {
-	width: 1160px;
-	margin: 0 auto;
+@media screen and (min-width: 37.5em) {
+	.site-header {
+		width: 1160px;
+		margin: 0 auto;
+	}
+	.site-main {
+		width: 1160px;
+		margin: 0 auto;
+	}
+}
+
+.main-navigation ul ul li:hover ul {
+	left: 250px;
+}
+
+.main-navigation ul ul {
+	background-color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
