@@ -981,4 +981,9 @@ textarea {
 	background-color: #FFFFFF;
 }
 
+.main-navigation .menu > ul > li > ul {
+	border: 1px solid #e1e1e1;
+	border-radius: 0 0 10px 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

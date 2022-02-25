@@ -14,3 +14,7 @@
 .main-navigation ul ul{
     background-color: $menu-background;
 }
+.main-navigation .menu > ul > li > ul {
+    border: 1px solid #e1e1e1;
+    border-radius: 0 0 10px 10px;
+}
