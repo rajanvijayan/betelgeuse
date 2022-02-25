@@ -986,4 +986,75 @@ textarea {
 	border-radius: 0 0 10px 10px;
 }
 
+article .entry-header h2 a {
+	text-decoration: none;
+	color: #404040;
+}
+
+article .entry-meta .posted-on a {
+	text-decoration: none;
+	color: #9b51e0;
+}
+
+article .entry-meta .byline .author a {
+	text-decoration: none;
+	color: #9b51e0;
+}
+
+article .entry-content p a {
+	text-decoration: none;
+	color: #9b51e0;
+}
+
+article .entry-content ul li a {
+	text-decoration: none;
+	color: #9b51e0;
+}
+
+article ::after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+article .entry-footer .cat-links {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+article .entry-footer .cat-links a {
+	text-decoration: none;
+	color: #9b51e0;
+}
+
+article .entry-footer .tags-links {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+article .entry-footer .tags-links a {
+	text-decoration: none;
+	color: #9b51e0;
+}
+
+article .entry-footer .edit-link {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+article .entry-footer .edit-link a {
+	text-decoration: none;
+	color: #9b51e0;
+}
+
+article .entry-footer .comments-link {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+article .entry-footer .comments-link a {
+	text-decoration: none;
+	color: #9b51e0;
+}
+
 /*# sourceMappingURL=style.css.map */
